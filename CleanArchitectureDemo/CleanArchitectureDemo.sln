@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.UI.MVC", "CleanArchitecture.UI.MVC", "{74B495EA-41E4-4D97-BA9C-634AD617DB35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.MVC", "CleanArchitecture.MVC\CleanArchitecture.MVC.csproj", "{339206C7-EB0D-4447-9941-333706BEFA73}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339206C7-EB0D-4447-9941-333706BEFA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339206C7-EB0D-4447-9941-333706BEFA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339206C7-EB0D-4447-9941-333706BEFA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339206C7-EB0D-4447-9941-333706BEFA73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{339206C7-EB0D-4447-9941-333706BEFA73} = {74B495EA-41E4-4D97-BA9C-634AD617DB35}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18AE4AC6-54E7-4B9D-932A-4CA7A7490E40}
