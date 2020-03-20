@@ -16,7 +16,6 @@ namespace CleanArchitecture.Infra.Data.Repositories
         }
         public IEnumerable<Book> GetBooks()
         {
-            // Add this line
             return _context.Books;
         }
     }

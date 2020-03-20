@@ -16,7 +16,6 @@ namespace CleanArchitecture.Application.Services
         }
         public BookViewModel GetBooks()
         {
-            //Add this code snippet 
             return new BookViewModel()
             {
                 Books = _bookRepository.GetBooks()
