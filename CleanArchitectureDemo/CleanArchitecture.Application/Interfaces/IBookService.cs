@@ -7,6 +7,6 @@ namespace CleanArchitecture.Application.Interfaces
 {
     public interface IBookService
     {
-        public IEnumerable<BookViewModel> GetBooks(); 
+        public BookViewModel GetBooks(); 
     }
 }
