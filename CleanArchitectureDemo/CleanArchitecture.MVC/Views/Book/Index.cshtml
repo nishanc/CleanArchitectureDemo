@@ -1,0 +1,21 @@
+﻿@model CleanArchitecture.Application.ViewModels.BookViewModel
+
+<table id="book" class="table table-bordered table-hover">
+    <thead>
+        <tr class="">
+            <th>Name</th>
+            <th>ISBN</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr style="height: 60px;">
+                <td>@book.Name</td>
+                <td>@book.ISBN</td>
+                <td>@book.AuthorName</td>
+            </tr>
+        }
+    </tbody>
+</table>
